@@ -50,14 +50,14 @@ Follow these steps to deploy the Two-Tier architecture:
 2.  **Plan and Apply:**
     ```bash
     terraform init
-    terraform plan -var-file="terraform.tfvars" --auto-approve
-    terraform apply -var-file="terraform.tfvars" --auto-approve
+    terraform plan -var-file="variable.tfvars" 
+    terraform apply -var-file="variable.tfvars" --auto-approve
     ```
 
 3. **Cleanup:**
 When done the exploration, run the following to destroy the infrastructure
     ```bash
-    terraform destroy -var-file="terraform.tfvars" --auto-approve
+    terraform destroy -var-file="variable.tfvars" --auto-approve
     ```
 
 ## Project Highlights
