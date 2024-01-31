@@ -44,7 +44,7 @@ Follow these steps to deploy the Two-Tier architecture:
 1. **Clone the Repository
 
    ```bash
-https://github.com/dinesh1108/terraform-2tier.git
+   https://github.com/dinesh1108/terraform-2tier.git
    ```
 
 2.  **Plan and Apply:**
