@@ -52,9 +52,5 @@ variable "DOMAIN-NAME" {}
 variable "CDN-NAME" {}
 
 
-# S3
-variable "BUCKET-NAME" {}
-
-
 # WAF
 variable "WEB-ACL-NAME" {}
